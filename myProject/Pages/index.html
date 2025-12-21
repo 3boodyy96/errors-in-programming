@@ -136,34 +136,3 @@
     const savedTheme = localStorage.getItem('theme') || 'light';
     document.body.setAttribute('data-theme', savedTheme);
 </script>
-<script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-        apiKey: "AIzaSyBIypzEtJs9EClfNIdQgR7Ffo0FOpyKv0o",
-        authDomain: "problems-in-programming-c419b.firebaseapp.com",
-        projectId: "problems-in-programming-c419b",
-        storageBucket: "problems-in-programming-c419b.firebasestorage.app",
-        messagingSenderId: "463209825010",
-        appId: "1:463209825010:web:26c5696454818421de866b",
-        measurementId: "G-R4PWHV3DDP"
-    };
-    const problems_in_programming = {
-    apiKey: "AIzaSyBIypzEtJs9EClfNIdQgR7Ffo0FOpyKv0o",
-    authDomain: "problems-in-programming-c419b.firebaseapp.com",
-    projectId: "problems-in-programming-c419b",
-    storageBucket: "problems-in-programming-c419b.firebasestorage.app",
-    messagingSenderId: "463209825010",
-    appId: "1:463209825010:web:26c5696454818421de866b",
-    measurementId: "G-R4PWHV3DDP"
-    };
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-</script>
